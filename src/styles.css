@@ -56,19 +56,19 @@ body {
 @media only screen and (min-width: 1280px) and (max-width: 1500px) { 
   .section-color {
     background-color: #f4e3e3;
-    height: 40rem;
+    height: 46.5rem;
   }
   .hero {
-    margin-left: 9rem;
-    margin-right: 5 rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    margin-left: 10rem;
+    margin-right: 5rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
   .prefix {
     letter-spacing: 0.25;
   }
   .main-header {
-    font-size: 4rem;
+    font-size: 4.25rem;
     letter-spacing: 0.75rem;
   }
   .img-sizing {
@@ -77,7 +77,7 @@ body {
   .element-1 {
     width: 28rem !important;
     left: -17%;
-    top: 0;
+    top: 5%;
   }
   .element-2 {
     width: 15rem !important;
