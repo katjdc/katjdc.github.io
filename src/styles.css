@@ -7,11 +7,11 @@ body {
   font-weight: 700;
   font-size: 2rem;
 }
-.navbar {
+/* .navbar {
   background: linear-gradient(#f4e3e3 1%, 
   rgba(244, 227, 227, 0.75) 10%, 
   rgba(244, 227, 227, 0.25) 100%, transparent);
-}
+} */
 .mainfont {
   font-family: "DM Mono", "DM Sans", "Cambria", sans-serif;
 }
@@ -51,12 +51,28 @@ body {
   left: 70%;
   top: 50%;
 }
-
-/* Desktop devices */
+.element-3 {
+  left: -3%;
+  top: 25%;
+}
+.element-4 {
+  width: 15rem;
+  left: 82%;
+  top: 0;
+}
+.about-content {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+.section-divider {
+  padding-top: 17rem;
+  padding-bottom: 17rem;
+}
+/* Small Desktops and Large Laptops (1280x750)*/
 @media only screen and (min-width: 1280px) and (max-width: 1500px) { 
   .section-color {
     background-color: #f4e3e3;
-    height: 46.5rem;
+    height: 47rem;
   }
   .hero {
     margin-left: 10rem;
@@ -84,9 +100,26 @@ body {
     left: 73%;
     top: 55%;
   }
+  .element-3 {
+    left: -3%;
+    top: 25%;
+  }
+  .element-4 {
+    width: 12rem;
+    left: 82%;
+    top: 0;
+  }
+  .about-content {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+  .section-divider {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
 }
-/* Small Laptops and Tablets */
-@media only screen and (min-width: 960px) and (max-width: 1279.89px) {
+/* X-Small Desktop and Laptops */
+@media only screen and (min-width: 1024px) and (max-width: 1279.89px) {
   .section-color {
     background-color: #f4e3e3;
     height: 46.5rem;
@@ -108,12 +141,27 @@ body {
     width: 18rem;
   }
   .element-1 {
-    left: -22.5%;
-    top: 5%;
+    width: 22rem !important;
+    left: -17%;
+    top: 13%;
   }
   .element-2 {
-    left: 70%;
-    top: 45%;
+    width: 12rem !important;
+    left: 73%;
+    top: 55%;
+  }
+  .element-3 {
+    width: 9rem !important;
+    left: 0;
+    top: 25%;
+  }
+  .about-content {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+  .section-divider {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
   }
 }
 /* Tablet devices */
