@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@400;500;700&family=Nunito:wght@200;300;400;500;600;700;800;900&family=Satisfy&display=swap");
+body {
+  font-family: "DM Sans", Georgia, Times, 'Times New Roman', serif;
+}
+.brand {
+  font-family: "Caveat", "Satisfy", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.navbar {
+  background: linear-gradient(#f4e3e3 1%, 
+  rgba(244, 227, 227, 0.75) 10%, 
+  rgba(244, 227, 227, 0.25) 100%, transparent);
+}
+.section-color {
+  background-color: #f4e3e3;
+  height: 60.5rem;
+}
+.hero {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
+.mainfont {
+  font-family: "DM Mono", "DM Sans", "Cambria", sans-serif;
+}
+.prefix {
+  letter-spacing: 0.2rem;
+  margin-left: 3px;
+}
+.main-header {
+  font-size: 5rem;
+  letter-spacing: 1rem;
+}
+.strike {
+  height: 2px !important;
+  background: black !important;
+  margin-top: 11px !important;
+  margin-bottom: 11px !important;
+  opacity: 0.8;
+}
+.img-sizing {
+  width: 30rem;
+}
+.element-right-1 {
+  left: 75%;
+  top: 50%;
+}
+.main {
+  margin-left: 8rem;
+}
+/* Laptop devices (laptop, and small desktops 1440px and below) */
+@media only screen and (max-width: 1440px) and (-webkit-min-device-pixel-ratio: 1) {
+  .section-color {
+    background-color: #f4e3e3;
+    height: 55rem;
+  }
+  .hero {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+  .prefix {
+    letter-spacing: 0.25;
+  }
+  .main-header {
+    font-size: 4.5rem;
+    letter-spacing: 0.75rem;
+  }
+  .img-sizing {
+    width: 25rem;
+  }
+  .main {
+    margin-left: 10rem;
+  }
+}
+/* Mobile devices (portrait) */
+@media only screen and (max-width: 576px) and (-webkit-min-device-pixel-ratio: 2){
+  .section-color {
+    background-color: #f4e3e3;
+    height: 52rem;
+  }
+  .hero {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .prefix {
+    margin-left: 0;
+    letter-spacing: 0;
+    font-weight: 500 !important;
+  }
+  .main-header {
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+  }
+  .img-sizing {
+    width: 15rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .main {
+    margin: 0;
+  }
+}
