@@ -43,26 +43,26 @@ body {
 .img-sizing {
   width: 30rem;
 }
-.element-right-1 {
+.element-1 {
   left: -10%;
   top: 10%;
 }
-.element-right-2 {
+.element-2 {
   left: 70%;
   top: 50%;
 }
 
 /* Desktop devices */
-@media only screen and (min-width: 1200.02px) and (max-width: 1441px) { 
+@media only screen and (min-width: 1280px) and (max-width: 1500px) { 
   .section-color {
     background-color: #f4e3e3;
-    height: 46.5rem;
+    height: 40rem;
   }
   .hero {
-    margin-left: 10rem;
-    margin-right: 9rem;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    margin-left: 9rem;
+    margin-right: 5 rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   .prefix {
     letter-spacing: 0.25;
@@ -74,23 +74,25 @@ body {
   .img-sizing {
     width: 23rem;
   }
-  .element-right-1 {
-    left: -20%;
-    top: 5%;
+  .element-1 {
+    width: 28rem !important;
+    left: -17%;
+    top: 0;
   }
-  .element-right-2 {
-    left: 70%;
-    top: 50%;
+  .element-2 {
+    width: 15rem !important;
+    left: 73%;
+    top: 55%;
   }
 }
-/* Laptops and tablets */
-@media only screen and (min-width: 576.02px) and (max-width: 1200px) {
+/* Small Laptops and Tablets */
+@media only screen and (min-width: 960px) and (max-width: 1279.89px) {
   .section-color {
     background-color: #f4e3e3;
     height: 46.5rem;
   }
   .hero {
-    margin-left: 5rem;
+    margin-left: 8rem;
     margin-right: 5rem;
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -105,11 +107,11 @@ body {
   .img-sizing {
     width: 18rem;
   }
-  .element-right-1 {
+  .element-1 {
     left: -22.5%;
     top: 5%;
   }
-  .element-right-2 {
+  .element-2 {
     left: 70%;
     top: 45%;
   }
@@ -117,23 +119,4 @@ body {
 /* Tablet devices */
 /* @media only screen and (min-width: 577px) and (max-width: 1198.98px) { } */
 /* Mobile devices */
-@media only screen and (max-width: 576px) {
-  .section-color {
-    background-color: #f4e3e3;
-    height: 52rem;
-  }
-  .prefix {
-    margin-left: 0;
-    letter-spacing: 0;
-    font-weight: 500 !important;
-  }
-  .main-header {
-    font-size: 2rem;
-    letter-spacing: 0.5rem;
-  }
-  .img-sizing {
-    width: 15rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-}
+/* @media only screen and (max-width: 576px) { } */
