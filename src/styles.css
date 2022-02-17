@@ -121,14 +121,12 @@ body {
   left: 25%;
 }
 .work-content {
-  margin-left: 8rem;
-  margin-right: 8rem;
   padding-top: 5rem;
   padding-bottom: 4rem;
 }
 .work-banner-margins {
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
 }
 
 /* Small Desktops and Large Laptops (1280x750)*/
@@ -193,14 +191,12 @@ body {
     width: 40rem;
   }
   .work-content {
-    margin-left: 8rem;
-    margin-right: 8rem;
     padding-top: 5rem;
     padding-bottom: 4rem;
   }
   .work-banner-margins {
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
   }
 }
 /* X-Small Desktop and Laptops */
@@ -269,14 +265,12 @@ body {
     width: 40rem;
   }
   .work-content {
-    margin-left: 3rem;
-    margin-right: 3rem;
     padding-top: 5rem;
     padding-bottom: 4rem;
   }
   .work-banner-margins {
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
   }
 }
 /* Tablet devices */
