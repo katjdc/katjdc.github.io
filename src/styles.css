@@ -128,6 +128,15 @@ body {
   margin-left: 20rem;
   margin-right: 20rem;
 }
+.contact-content {
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.contact-content h1 {
+  font-size: 7rem;
+}
 
 /* Small Desktops and Large Laptops (1280x750)*/
 @media only screen and (min-width: 1280px) and (max-width: 1500px) { 
@@ -271,6 +280,15 @@ body {
   .work-banner-margins {
     margin-left: 15rem;
     margin-right: 15rem;
+  }
+  .contact-content {
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .contact-content h1 {
+    font-size: 6rem;
   }
 }
 /* Tablet devices */
