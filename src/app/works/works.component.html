@@ -1,1 +1,47 @@
-<p>works works!</p>
+<div class="container-fluid position-relative" id="works">
+  <div class="container">
+    <div class="work-content">
+      <div class="d-flex justify-content-center">
+        <h2 class="mb-3">Check out my projects</h2>
+      </div>
+      <div class="d-grid gap-2 d-flex justify-content-center work-banner-margins">
+        <div class="col"><hr class="strike"></div>
+        <div class="col-1"><img src="../../assets/img/banner-down.svg" class="img-fluid" width="64" alt="Banner"/></div>
+        <div class="col"><hr class="strike"></div>
+      </div>
+      <!-- Swiper -->
+      <div class="swiper-container">
+        <swiper
+          [effect]="'coverflow'"
+          [grabCursor]="true"
+          [centeredSlides]="true"
+          [slidesPerView]="'auto'"
+          [spaceBetween]="50"
+          [coverflowEffect]="{
+            rotate: 30,
+            stretch: 0,
+            depth: 50,
+            modifier: 1,
+            slideShadows: false
+          }"
+        >
+          <ng-template swiperSlide class="swiper-slide1">
+            <img src="../../assets/img/smartdeck.png" class="img-fluid" width="225" alt="Smartdeck">
+          </ng-template>
+          <ng-template swiperSlide class="swiper-slide1">
+            <img src="../../assets/img/imdb.png" class="img-fluid" width="225" alt="IMDB">
+          </ng-template>
+          <ng-template swiperSlide class="swiper-slide2">
+            <img src="../../assets/img/lacallecafe.png" class="img-fluid" alt="IMDB">
+          </ng-template>
+          <ng-template swiperSlide class="swiper-slide2">
+            <img src="../../assets/img/startup.png" class="img-fluid" alt="IMDB">
+          </ng-template>
+          <ng-template swiperSlide class="swiper-slide2">
+            <img src="../../assets/img/matchapparel.png" class="img-fluid" alt="IMDB">
+          </ng-template>
+        </swiper>
+      </div>
+    </div>
+  </div>
+</div>
