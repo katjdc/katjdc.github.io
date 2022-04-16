@@ -37,7 +37,13 @@ body {
 }
 .section-color {
   background-color: #f4e3e3;
-  height: 60.5rem;
+}
+.section-color-white {
+  background-color: white;
+}
+.section {
+  width: 100%;
+  height: 100vh;
 }
 .hero {
   margin-left: 6rem;
@@ -72,8 +78,8 @@ body {
   top: 50%;
 }
 .element-3 {
-  left: -3%;
-  top: 25%;
+  left: 12%;
+  top: 40%;
 }
 .element-4 {
   width: 15rem;
@@ -119,10 +125,6 @@ body {
 .window-text-2 {
   top: 65%;
   left: 25%;
-}
-.work-content {
-  padding-top: 5rem;
-  padding-bottom: 4rem;
 }
 .work-banner-margins {
   margin-left: 20rem;
@@ -291,6 +293,7 @@ body {
     font-size: 6rem;
   }
 }
+
 /* Tablet devices */
 /* @media only screen and (min-width: 577px) and (max-width: 1198.98px) { } */
 /* Mobile devices */
