@@ -9,6 +9,7 @@ import { DOCUMENT } from '@angular/common';
   styleUrls: ['./hero.component.css'],
 })
 export class HeroComponent implements OnInit {
+  @ViewChild('animatedHeroImage', { static: true }) animatedHeroImage!: ElementRef<HTMLDivElement>;
   @ViewChild('animatedFlower1', { static: true }) animatedFlower1!: ElementRef<HTMLDivElement>;
   @ViewChild('animatedFlower2', { static: true }) animatedFlower2!: ElementRef<HTMLDivElement>;
   @ViewChild('animatedHeroSubheader', { static: true }) animatedHeroSubheader!: ElementRef<HTMLDivElement>;
@@ -22,28 +23,13 @@ export class HeroComponent implements OnInit {
     this.initAnimations();
   }
 
-  initScrollAnimations(): void {
-    gsap.to(this.animatedFlower1.nativeElement, {
-      scrollTrigger: {
-        trigger: this.animatedFlower1.nativeElement,
-        scrub: true,
-        start: '110% center'
-      },
-      duration: 1.1,
-      scale: 1.2,
-    });
-    gsap.to(this.animatedFlower2.nativeElement, {
-      scrollTrigger: {
-        trigger: this.animatedFlower2.nativeElement,
-        scrub: true,
-        start: '80% center'
-      },
-      duration: 1.1,
-      scale: 1.2,
-    });
-  }
-
   initAnimations(): void {
+    gsap.from(this.animatedHeroImage.nativeElement, {
+      duration: 1.5,
+      opacity: 0,
+      x: -30,
+      delay: 1,
+    });
     gsap.from(this.animatedFlower1.nativeElement, {
       duration: 2,
       opacity: 0,
@@ -82,4 +68,24 @@ export class HeroComponent implements OnInit {
     });
   }
 
+  initScrollAnimations(): void {
+    gsap.to(this.animatedFlower1.nativeElement, {
+      scrollTrigger: {
+        trigger: this.animatedFlower1.nativeElement,
+        scrub: true,
+        start: '110% center'
+      },
+      duration: 1.1,
+      scale: 1.2,
+    });
+    gsap.to(this.animatedFlower2.nativeElement, {
+      scrollTrigger: {
+        trigger: this.animatedFlower2.nativeElement,
+        scrub: true,
+        start: '80% center'
+      },
+      duration: 1.1,
+      scale: 1.2,
+    });
+  }
 }
