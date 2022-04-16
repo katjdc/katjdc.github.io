@@ -11,6 +11,10 @@ import { DOCUMENT } from '@angular/common';
 export class HeroComponent implements OnInit {
   @ViewChild('animatedFlower1', { static: true }) animatedFlower1!: ElementRef<HTMLDivElement>;
   @ViewChild('animatedFlower2', { static: true }) animatedFlower2!: ElementRef<HTMLDivElement>;
+  @ViewChild('animatedHeroSubheader', { static: true }) animatedHeroSubheader!: ElementRef<HTMLDivElement>;
+  @ViewChild('animatedHeroHeader', { static: true }) animatedHeroHeader!: ElementRef<HTMLDivElement>;
+  @ViewChild('animatedHeroStrike', { static: true }) animatedHeroStrike!: ElementRef<HTMLDivElement>;
+  @ViewChild('animatedHeroLink', { static: true }) animatedHeroLink!: ElementRef<HTMLDivElement>;
 
   constructor(@Inject(DOCUMENT) private document: Document) { }
 
@@ -51,6 +55,30 @@ export class HeroComponent implements OnInit {
       opacity: 0,
       x: -50,
       delay: 1,
+    });
+    gsap.from(this.animatedHeroSubheader.nativeElement, {
+      duration: 1.25,
+      opacity: 0,
+      x: -50,
+      delay: 1,
+    });
+    gsap.from(this.animatedHeroHeader.nativeElement, {
+      duration: 1.5,
+      opacity: 0,
+      x: -50,
+      delay: 1.25,
+    });
+    gsap.from(this.animatedHeroStrike.nativeElement, {
+      duration: 1.75,
+      opacity: 0,
+      x: -50,
+      delay: 1.5,
+    });
+    gsap.from(this.animatedHeroLink.nativeElement, {
+      duration: 2,
+      opacity: 0,
+      x: -30,
+      delay: 1.5,
     });
   }
 

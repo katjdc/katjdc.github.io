@@ -211,7 +211,7 @@ body {
   }
 }
 /* X-Small Desktop and Laptops */
-@media only screen and (min-width: 1024px) and (max-width: 1279.89px) {
+@media only screen and (min-width: 1024px) and (max-width: 1299.89px) {
   .section-color {
     background-color: #f4e3e3;
     height: 46.5rem;
