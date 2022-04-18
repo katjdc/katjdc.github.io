@@ -45,6 +45,10 @@ body {
   width: 100%;
   height: 100vh;
 }
+.section-divider {
+  padding-top: 17.5rem;
+  padding-bottom: 17.5rem;
+}
 .hero {
   margin-left: 6rem;
   margin-right: 6rem;
@@ -94,10 +98,6 @@ body {
 .about-content {
   margin-left: 10rem;
   margin-right: 10rem;
-}
-.section-divider {
-  padding-top: 17.5rem;
-  padding-bottom: 17.5rem;
 }
 .edu-content {
   margin-left: 6rem;
@@ -174,16 +174,16 @@ body {
   }
   .element-3 {
     left: 3%;
-    top: 27%;
+    top: 30%;
   }
   .element-4 {
     width: 12rem;
-    left: 77.67%;
+    left: 80%;
     top: 0;
   }
   .element-5 {
     width: 16rem;
-    left: 75%;
+    left: 77.50%;
     top: 0;
   }
   .about-content {
@@ -191,12 +191,10 @@ body {
     margin-right: 15rem;
   }
   .section-divider {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 13rem;
   }
   .edu-content {
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 10rem;
   }
   .windowframe {
     width: 40rem;
